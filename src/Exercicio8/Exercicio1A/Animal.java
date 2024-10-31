@@ -1,4 +1,4 @@
-package Exercicio.Exercicio1A;
+package Exercicio8.Exercicio1A;
 
 public class Animal {
 

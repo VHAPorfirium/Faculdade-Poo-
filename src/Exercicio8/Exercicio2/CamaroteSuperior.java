@@ -1,4 +1,4 @@
-package Exercicio.Exercicio2;
+package Exercicio8.Exercicio2;
 
 public class CamaroteSuperior extends VIP{
 

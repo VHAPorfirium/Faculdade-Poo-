@@ -1,4 +1,4 @@
-package Exercicio.Exercicio1D;
+package Exercicio8.Exercicio1D;
 
 public class Assalariado extends Empregado{
 
