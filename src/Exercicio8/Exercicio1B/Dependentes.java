@@ -4,10 +4,12 @@ public class Dependentes {
 
     private String nome;
     private char sexo;
+    private Funcionario funcionario;
 
-    public Dependentes(String nome, char sexo) {
+    public Dependentes(String nome, char sexo, Funcionario funcionario) {
         this.nome = nome;
         this.sexo = sexo;
+        this.funcionario = funcionario;
     }
 
     public String getNome() {
@@ -21,6 +23,13 @@ public class Dependentes {
     }
     public void setSexo(char sexo) {
         this.sexo = sexo;
+    }
+
+    public Funcionario getFuncionario() {
+        return funcionario;
+    }
+    public void setFuncionario(Funcionario funcionario) {
+        this.funcionario = funcionario;
     }
 
     public String toString() {
