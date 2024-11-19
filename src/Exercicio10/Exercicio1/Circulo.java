@@ -1,4 +1,4 @@
-package Exercicio10;
+package Exercicio10.Exercicio1;
 
 public class Circulo implements CalculoArea {
 
