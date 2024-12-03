@@ -1,0 +1,7 @@
+Sala: 1, Cinemark, Piso 1
+Filmes: Projeto X, Ano: 2012, Pais de origem: EUA, Lingua: Ingles, Tipo: Besterol Americano 
+Artistas: 
+Oliver Cooper, 21 Anos, Eua.
+Thomas, 15 Anos, Eua.
+
+
