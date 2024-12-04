@@ -50,8 +50,10 @@ public class SalaDeCinema {
         return lista.toString();
     }
 
+    @Override
     public String toString() {
         return "Sala: " + getNumero() + ", " + getNome() + ", " + getLocalizacao() + "\n" +
-                "Filmes: " + listarFilmes();
+                "Filmes: " + listarFilmes().trim();
     }
+
 }

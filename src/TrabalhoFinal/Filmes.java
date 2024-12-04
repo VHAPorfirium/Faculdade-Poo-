@@ -65,14 +65,14 @@ public class Filmes {
     public String listarArtistas() {
         StringBuilder lista = new StringBuilder();
         for (Artista artista : artistas) {
-            lista.append(artista.toString() + ".");
-            lista.append("\n");
+            lista.append(artista.toString()).append("\n");
         }
-        return lista.toString();
+        return lista.toString().trim();
     }
 
+    @Override
     public String toString() {
         return getNome() + ", Ano: " + getAno() + ", Pais de origem: " + getPaisOrigem() + ", Lingua: " + getLingua() + ", Tipo: " + getTipo() + "\n" +
-                "Artistas: " + "\n" + listarArtistas();
+                "Artistas: \n" + listarArtistas();
     }
 }

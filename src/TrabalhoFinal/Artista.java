@@ -1,7 +1,6 @@
 package TrabalhoFinal;
 
 public class Artista {
-
     private String nome;
     private int idade;
     private String nacionalidade;
@@ -31,6 +30,7 @@ public class Artista {
         this.nacionalidade = nacionalidade;
     }
 
+    @Override
     public String toString() {
         return getNome() + ", " + getIdade() + " Anos, " + getNacionalidade();
     }

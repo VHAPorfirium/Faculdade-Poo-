@@ -21,11 +21,11 @@ public class programaFinal {
 
             String linha;
             boolean arquivoVazio = true;
+            System.out.println("Conteúdo salvo no arquivo:");
 
             while ((linha = reader.readLine()) != null)
             {
                 arquivoVazio = false;
-                System.out.println("Conteúdo salvo no arquivo:");
                 System.out.println(linha);
             }
 
@@ -100,12 +100,13 @@ public class programaFinal {
                     } while (opcao2.equalsIgnoreCase("Sim"));
 
                     // Escrever no arquivo
-                    writer.write(salaDeCinema.toString());
-                    writer.write("\n");
+                    writer.write(salaDeCinema.toString().trim());
+                    writer.write("\n\n");
 
                     System.out.println("\nRegistro salvo:");
                     System.out.println(salaDeCinema);
 
+                    System.out.println();
                     System.out.println("Deseja adicionar outra sala de cinema?? (Sim/Não)");
                     continuar = sc.nextLine();
 
